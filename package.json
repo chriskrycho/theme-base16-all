@@ -1,0 +1,47 @@
+{
+    "name": "theme-base16-all",
+    "displayName": "Base16 Schemes",
+    "description": "All the Base16 Schemes in the original repo.",
+    "version": "0.0.1",
+    "publisher": "chriskrycho",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Base16 Ashes Light",
+                "uiTheme": "vs",
+                "path": "./themes/base16-ashes.light.tmTheme"
+            },
+            {
+                "label": "Base16 Ashes Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/base16-ashes.dark.tmTheme"
+            },
+            {
+                "label": "Base16 Harmonic16 Light",
+                "uiTheme": "vs",
+                "path": "./themes/base16-harmonic16.light.tmTheme"
+            },
+            {
+                "label": "Base16 Harmonic16 Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/base16-harmonic16.dark.tmTheme"
+            },
+            {
+                "label": "Base16 Yesterday Night Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/base16-yesterdaynight.dark.tmTheme"
+            },
+            {
+                "label": "Base16 Yesterday Night Light",
+                "uiTheme": "vs",
+                "path": "./themes/base16-yesterdaynight.light.tmTheme"
+            }
+        ]
+    }
+}
